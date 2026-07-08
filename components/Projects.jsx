@@ -6,7 +6,7 @@ const PROJECTS = [
     subtitle: 'ETL Pipeline · Data Warehouse · Analytics',
     tags: ['Python', 'ETL', 'Data Modeling', 'Data Warehousing', 'Apache Spark', 'MySQL'],
     desc: 'A data warehousing project built around the hospitality domain, designed to turn scattered, day-to-day hotel operations data — room bookings, guest check-ins/check-outs, billing, and inventory — into a single, analytics-ready source of truth. Raw operational data from multiple sources is extracted, cleaned, and transformed using Python and Pandas, then loaded into a star-schema warehouse optimized for reporting. Apache Spark handles distributed processing for larger historical datasets, while fact and dimension tables make it possible to analyze occupancy trends, revenue, and guest behavior far faster than querying transactional tables directly.',
-    github: 'https://github.com/KartikeyDwivedii',
+    github: 'https://github.com/KartikeyDwivedii/Hotel-Management-Data-Warehousing-Project',
     icon: '🏨',
     highlights: [
       'Multi-source ETL pipeline for hotel operations data',
