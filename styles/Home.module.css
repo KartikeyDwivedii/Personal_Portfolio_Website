@@ -1,0 +1,131 @@
+.about {
+  padding: 100px 7% 80px;
+  background: #0a0a0a;
+  min-height: 100vh;
+}
+
+.sectionLabel {
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(255, 140, 60, 0.7);
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: rgba(255, 140, 60, 0.7);
+}
+
+.sectionLabel::after {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 1px;
+  background: rgba(255, 140, 60, 0.3);
+}
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1100px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 0.5px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 30px 32px;
+  transition: border-color 0.3s;
+}
+
+.card:hover {
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+.card h3 {
+  font-family: 'Syne', 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.card p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.52);
+  line-height: 1.75;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+
+.list li {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  line-height: 1.5;
+}
+
+.list li::before {
+  content: '→';
+  color: #ff8c3c;
+  flex-shrink: 0;
+  font-size: 12px;
+  margin-top: 1px;
+}
+
+.skillGroup {
+  margin-bottom: 16px;
+}
+
+.skillGroup:last-child {
+  margin-bottom: 0;
+}
+
+.skillGroupLabel {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255, 140, 60, 0.6);
+  margin-bottom: 8px;
+}
+
+.skillTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skillTag {
+  font-size: 11px;
+  padding: 4px 11px;
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.skillTag:hover {
+  border-color: rgba(255, 140, 60, 0.4);
+  color: rgba(255, 140, 60, 0.85);
+}
+
+@media (max-width: 768px) {
+  .aboutGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .about {
+    padding: 60px 5% 60px;
+  }
+}
