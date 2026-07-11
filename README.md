@@ -152,9 +152,3 @@ vercel
 This project is for personal portfolio use. Feel free to fork it for inspiration, but please don't reuse personal content (resume, photos, project details) as your own.
 
 ---
-
-## 📬 Contact
-
-- **GitHub:** [KartikeyDwivedii](https://github.com/KartikeyDwivedii)
-- **LinkedIn:** [kartikeyydwivedi](https://www.linkedin.com/in/kartikeyydwivedi/)
-- **LeetCode:** [CtLP6EcvDr](https://leetcode.com/u/CtLP6EcvDr/)
