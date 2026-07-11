@@ -57,6 +57,10 @@
   background: rgba(var(--fg-rgb),0.06);
 }
 
+.resumeWrap {
+  position: relative;
+}
+
 .resumeBtn {
   font-size: 12px;
   font-weight: 600;
@@ -67,9 +71,42 @@
   border: 0.5px solid rgba(255,140,60,0.4);
   letter-spacing: 0.05em;
   transition: background 0.2s, color 0.2s;
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .resumeBtn:hover {
+  background: #ff8c3c;
+  color: #000;
+}
+
+.resumeMenu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+  background: #0a0a0a;
+  border: 0.5px solid rgba(255,140,60,0.4);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  z-index: 50;
+}
+
+.resumeMenuItem {
+  font-size: 12px;
+  font-weight: 600;
+  color: #f5f5f5;
+  text-decoration: none;
+  padding: 10px 16px;
+  letter-spacing: 0.05em;
+  transition: background 0.2s, color 0.2s;
+}
+
+.resumeMenuItem:hover {
   background: #ff8c3c;
   color: #000;
 }
