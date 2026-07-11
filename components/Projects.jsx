@@ -16,6 +16,21 @@ const PROJECTS = [
       'Automated data quality validation and cleaning',
     ],
   },
+  {
+    title: 'Food Delivery Analytics Platform',
+    subtitle: 'Data Analytics · Dashboarding · Business Insights',
+    tags: ['Python', 'SQL', 'Pandas', 'Data Visualization', 'Analytics'],
+    desc: 'An analytics platform built around food delivery operations, turning raw order, delivery, and customer data into actionable business insights. The pipeline cleans and processes orders, restaurant, and delivery-partner data, then surfaces trends such as delivery times, order volumes, peak hours, and customer behavior through interactive dashboards — helping stakeholders make faster, data-driven decisions.',
+    github: 'https://github.com/KartikeyDwivedii/Food-Delivery-Analytics-Platform',
+    icon: '🍔',
+    highlights: [
+      'End-to-end data pipeline for food delivery order data',
+      'Analysis of delivery times, order volume & peak-hour trends',
+      'Interactive dashboards for business insights',
+      'Customer & restaurant performance analytics',
+      'Clean, reusable data processing scripts',
+    ],
+  },
 ];
 
 export default function Projects() {
