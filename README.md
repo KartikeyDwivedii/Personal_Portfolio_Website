@@ -2,7 +2,7 @@
 
 A cinematic, single-page personal portfolio built with **Next.js 14 (App Router)**, featuring a Three.js particle hero section, smooth GSAP animations, and a fully responsive, theme-aware design.
 
-**Live site:** _add your Vercel deployment URL here_
+**Live site:** https://kartikeyy-dwivedi-portfolio.vercel.app/
 
 ---
 
